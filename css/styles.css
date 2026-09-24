@@ -72,8 +72,12 @@ article:hover {
   transform: scale(0.9);
   transition: ease-in-out;
   transition-duration: 0.3s;
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) !important;
   border-color: var(--primary-color) !important;
+}
+
+article:hover span {
+  color: var(--primary-color);
 }
 
 footer {
